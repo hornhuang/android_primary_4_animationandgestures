@@ -1,5 +1,11 @@
 <resources>
+
     <string name="app_name">android_primary_4_animation and gestures</string>
 
-    <string name="text">TextView</string>
+    <string name="alpha">AlphaAnimation</string>
+    <string name="scale">ScaleAnimation</string>
+    <string name="translate">TranslateAnimation</string>
+    <string name="rotate">RotateAnimation</string>
+    <string name="tween">Tween animation</string>
+
 </resources>

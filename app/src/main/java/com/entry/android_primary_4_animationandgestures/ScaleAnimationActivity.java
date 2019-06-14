@@ -7,31 +7,27 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-/**@anthor _yuanhao
- * alpha
- */
-public class AlphaAnimationActivity extends AppCompatActivity {
+public class ScaleAnimationActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_alpha_animation);
+        setContentView(R.layout.activity_scale_animation);
 
-        Animation animation = AnimationUtils.loadAnimation(this, R.anim.alpha_anim);
+        Animation animation = AnimationUtils.loadAnimation(this, R.anim.scale_anim);
         animation.setFillAfter(false);// 变化之后是永久更改还是恢复原样
 
-        ImageView imageView = findViewById(R.id.image);
+        ImageView imageView = findViewById(R.id.scale_image);
         imageView.startAnimation(animation);
 
-        TextView textView   = findViewById(R.id.text);
+        TextView textView   = findViewById(R.id.scale_text);
         textView.startAnimation(animation);
     }
 
     public static void actionStart(AppCompatActivity activity){
-        Intent intent = new Intent(activity, AlphaAnimationActivity.class);
+        Intent intent = new Intent(activity, ScaleAnimationActivity.class);
         activity.startActivity(intent);
     }
 }

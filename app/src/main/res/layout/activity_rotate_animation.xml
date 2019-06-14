@@ -4,27 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
     android:orientation="vertical"
-    tools:context=".AlphaAnimationActivity">
+    android:gravity="center"
+    tools:context=".RotateAnimationActivity">
 
     <!--不建议用 Relativelayout 浪费内存 哈哈哈-->
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/scale_image"
         android:layout_width="300dp"
         android:layout_height="200dp"
         android:src="@drawable/girl"
         android:scaleType="fitXY"
-        android:alpha="1.0"/>
+        android:rotationX="50"
+        android:rotationY="20"/>
 
     <!--这里的 alpha 设置的是最大透明度-->
     <TextView
-        android:id="@+id/text"
+        android:id="@+id/scale_text"
         android:layout_width="250dp"
         android:layout_height="250dp"
+        android:layout_marginTop="20dp"
         android:gravity="center"
-        android:text="@string/alpha"
-        android:background="@color/papayawhip"
-        android:alpha="0.75"/>
+        android:text="@string/rotate"
+        android:transformPivotX="20sp"
+        android:transformPivotY="40sp"
+        android:background="@color/papayawhip"/>
 
 </LinearLayout>

@@ -10,9 +10,46 @@
     <Button
         android:id="@+id/alpha"
         android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_margin="5sp"
+        android:text="@string/alpha"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/scale"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/text" />
+        android:layout_weight="1"
+        android:layout_margin="5sp"
+        android:text="@string/scale"
+        android:textSize="25sp"/>
 
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5sp"
+        android:text="@string/translate"
+        android:textSize="25sp"/>
 
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5sp"
+        android:text="@string/rotate"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/tween"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_margin="5sp"
+        android:text="@string/tween"
+        android:textSize="25sp"/>
 
 </LinearLayout>
