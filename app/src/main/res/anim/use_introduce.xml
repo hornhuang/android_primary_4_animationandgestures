@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--&lt;!&ndash;透明度更变动画&ndash;&gt;-->
+    <!--<alpha-->
+        <!--android:fromAlpha="float"-->
+        <!--android:toAlpha="float" />-->
+    <!--&lt;!&ndash;缩放动画&ndash;&gt;-->
+    <!--<scale-->
+        <!--android:fromXScale="float"-->
+        <!--android:toXScale="float"-->
+        <!--android:fromYScale="float"-->
+        <!--android:toYScale="float"-->
+        <!--android:pivotX="float"-->
+        <!--android:pivotY="float" />-->
+    <!--&lt;!&ndash;平移动画&ndash;&gt;-->
+    <!--<translate-->
+        <!--android:fromXDelta="float"-->
+        <!--android:toXDelta="float"-->
+        <!--android:fromYDelta="float"-->
+        <!--android:toYDelta="float" />-->
+    <!--&lt;!&ndash;旋转动画&ndash;&gt;-->
+    <!--<rotate-->
+        <!--android:fromDegrees="float"-->
+        <!--android:toDegrees="float"-->
+        <!--android:pivotX="float"-->
+        <!--android:pivotY="float" />-->
+    <!--...-->
+</set>
